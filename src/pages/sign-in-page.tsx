@@ -4,7 +4,7 @@ import { useSignInWithPassword } from "@/hooks/mutations/use-sign-in-with-passwo
 import { useState } from "react";
 import { Link } from "react-router";
 import gitHubLogo from "@/assets/github-mark.svg";
-import { useSignInWithOAuth } from "@/hooks/mutations/use-sign-in-sith-oauth";
+import { useSignInWithOAuth } from "@/hooks/mutations/use-sign-in-with-oauth";
 
 export default function SignInPage() {
   const [email, setEmail] = useState("");
