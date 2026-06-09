@@ -6,7 +6,7 @@ import IndexPage from "./pages/index-page";
 import PostDetailPage from "./pages/post-detail-page";
 import ProfileDetailPage from "./pages/profile-detail-page";
 import ResetPasswordPage from "./pages/reset-password-page";
-import GlobalLayout from "./components/ui/layout/globla-layout";
+import GlobalLayout from "./components/layout/globla-layout";
 
 export default function RootRoute() {
   return (
